@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="6US72QhlKUKc9uzokKOn">
+    <mxGraphModel dx="1414" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tsapqmecbNpfCzp6JPch-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Plataforma Web CMA Parragué" vertex="1">
+          <mxGeometry height="730" width="440" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-3" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Consultar catálogo de servicios" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-4" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Verificar acreditaciones DGAC" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-5" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Descargar certificados en PDF" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-6" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Solicitar cotización técnica" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-7" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Validar datos técnicos" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-8" edge="1" parent="tsapqmecbNpfCzp6JPch-1" source="tsapqmecbNpfCzp6JPch-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="350" as="sourcePoint" />
+            <mxPoint x="280" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-10" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Enviar notificación por correo SMTP" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-9" edge="1" parent="tsapqmecbNpfCzp6JPch-1" source="tsapqmecbNpfCzp6JPch-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="350" as="sourcePoint" />
+            <mxPoint x="280" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-11" edge="1" parent="tsapqmecbNpfCzp6JPch-1" source="tsapqmecbNpfCzp6JPch-5" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="100" as="sourcePoint" />
+            <mxPoint x="340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-12" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Visualizar galería de taller" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-24" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Gestionar contenidos y galería" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-28" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Actualizar certificados PDF DGAC" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-32" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Consultar historial de cotizaciones" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-35" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Consultar ubicación y acceso al taller" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-20" parent="tsapqmecbNpfCzp6JPch-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Autenticarse en el sistema" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-27" edge="1" parent="tsapqmecbNpfCzp6JPch-1" source="tsapqmecbNpfCzp6JPch-24" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="240" y="270" as="sourcePoint" />
+            <mxPoint x="320" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-39" edge="1" parent="tsapqmecbNpfCzp6JPch-1" source="tsapqmecbNpfCzp6JPch-32" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="40" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-40" edge="1" parent="tsapqmecbNpfCzp6JPch-1" source="tsapqmecbNpfCzp6JPch-28" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="40" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente" vertex="1">
+          <mxGeometry height="80" width="40" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-13" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-2" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-16" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-2" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="410" />
+            </Array>
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Servidor Correo" vertex="1">
+          <mxGeometry height="80" width="40" x="680" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-18" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-10" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="40" x="680" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-25" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-19" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-33" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-19" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-34" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-2" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-36" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-2" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-37" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-2" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="210" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsapqmecbNpfCzp6JPch-38" edge="1" parent="1" source="tsapqmecbNpfCzp6JPch-19" style="endArrow=classic;html=1;rounded=0;" target="tsapqmecbNpfCzp6JPch-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="290" y="450" as="sourcePoint" />
+            <mxPoint x="340" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
